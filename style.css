@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+:root{
+    --branco:white;
+    --cor-de-fundo:#0c361d;
+    --fundo-senha:#1e5834; 
+    --fundo-texto:#1e5834;
+    --borda:#108b41; 
+    --fonte-principal:'Bitcount Prop Single'; 
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+}
+.conteudo-titulo{
+    text-align: center;
+}
+*{
+    font-weight: 400;
+}
+.conteudo-senha{
+    margin-top: 80px;
+    background-color: var(--fundo-senha);
+    padding: 24px;
+    border-bottom: 6px solid var(--borda);
+}
