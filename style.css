@@ -5,7 +5,7 @@
     --fundo-senha:#1e5834; 
     --fundo-texto:#1e5834;
     --borda:#108b41; 
-    --fonte-principal:'Bitcount Prop Single'monospace; 
+    --fonte-principal:'Bitcount Prop Single' monospace; 
 }
 body{
     background-color: var(--cor-de-fundo);
